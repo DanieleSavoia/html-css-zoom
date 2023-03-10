@@ -20,9 +20,11 @@
     background-color: rgb(0, 0, 0);
     color: white;
     justify-content: flex-end;
+    align-items: center;
     padding-top: 2px;
     padding-right: 2px;
     display: flex;
+    gap: 2px;
     
 
     height: 10vh;
@@ -106,3 +108,69 @@ footer {
     justify-content: center;
     gap: 4px;
     margin-top: 15px;}
+
+
+
+
+    .barrabottoni {
+        display: flex;
+        justify-content: space-between;
+        height: 5rem;
+        background-color: #222222;
+        overflow-x: hidden;
+    }
+    
+    .bottonisinistra {
+        display: flex;
+    }
+    
+    .btn-dash {
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+        padding: .5rem;
+        color: white;
+    }
+    
+    .btn-dash:hover {
+        background-color: #aaaaaa;
+        cursor: pointer;
+    }
+    
+    .btn-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+    }
+    
+    .dash-ico {
+        font-size: 1.5rem;
+    }
+    
+    .bottonicentro {
+        display: flex;
+    }
+    
+    .bottonedestra {
+        display: flex;
+    }
+    
+    .bottonedestra .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .btn-share .dash-ico {
+        color: #4BC800;
+    }
+    
+    .btn-end {
+        padding-inline: 1rem;
+        color: red;
+        border-radius: 0;
+        background-color: gray;
+    }
+    
